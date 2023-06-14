@@ -1,0 +1,102 @@
+.sprite {
+  background-image: url('../resource/dragones/144x128/red.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite.icon1 {
+  width: 144px;
+  height: 128px;
+  background-position: 0 0; /* Posición de la primera imagen en el sprite sheet */
+}
+
+.sprite.icon2 {
+  width: 144px;
+  height: 128px;
+  background-position: -144px 0; /* Posición de la segunda imagen en el sprite sheet */
+}
+
+.sprite.icon3 {
+  width: 144px;
+  height: 128px;
+  background-position: -288px 0; /* Posición de la segunda imagen en el sprite sheet */
+}
+
+
+.spriteMovimiento{
+  background-image: url('../resource/dragones/144x128/red.png');
+  background-repeat: no-repeat;
+  width: 144px; /* Ancho de cada sprite individual */
+  height: 128px; /* Altura de cada sprite individual */
+  position: relative;
+  animation: mover-sprite 1s steps(3) infinite; /* Animación de movimiento */
+}
+
+@keyframes mover-sprite {
+  from{ background-position: 0 0px; } /* Inicial*/
+to{ background-position: -432px 0px; } /* Final*/
+}
+
+.sprite.icon4 {
+  width: 144px;
+  height: 128px;
+  background-position: 0 -128px; /* Posición de la primera imagen en el sprite sheet */
+}
+
+.sprite.icon5 {
+  width: 144px;
+  height: 128px;
+  background-position: -144px -128px ;/* Posición de la segunda imagen en el sprite sheet */
+}
+
+.sprite.icon6 {
+  width: 144px;
+  height: 128px;
+  background-position: -288px -128px; /* Posición de la segunda imagen en el sprite sheet */
+}
+
+.spriteMovimiento2{
+  background-image: url('../resource/dragones/144x128/red.png');
+  background-repeat: no-repeat;
+  width: 144px; /* Ancho de cada sprite individual */
+  height: 128px; /* Altura de cada sprite individual */
+  position: relative;
+  animation: mover-sprite2 1s steps(3) infinite; /* Animación de movimiento */
+}
+
+@keyframes mover-sprite2 {
+  from{ background-position: 0 -128px; } /* Inicial*/
+to{ background-position: -432px -128px; } /* Final*/
+}
+
+.sprite.icon7 {
+  width: 144px;
+  height: 128px;
+  background-position: 0 -256px; /* Posición de la primera imagen en el sprite sheet */
+}
+
+.sprite.icon8 {
+  width: 144px;
+  height: 128px;
+  background-position: -144px -256px ;/* Posición de la segunda imagen en el sprite sheet */
+}
+
+.sprite.icon9 {
+  width: 144px;
+  height: 128px;
+  background-position: -288px -256px; /* Posición de la segunda imagen en el sprite sheet */
+}
+
+.spriteMovimiento3{
+  background-image: url('../resource/dragones/144x128/red.png');
+  background-repeat: no-repeat;
+  width: 144px; /* Ancho de cada sprite individual */
+  height: 128px; /* Altura de cada sprite individual */
+  position: relative;
+  animation: mover-sprite3 1s steps(3) infinite; /* Animación de movimiento */
+}
+
+@keyframes mover-sprite3 {
+  from{ background-position: 0 -256px; } /* Inicial*/
+to{ background-position: -432px -256px; } /* Final*/
+}
