@@ -1,0 +1,32 @@
+.spriteMovimiento{
+    background-image: url('../resource/dragones/144x128/red.png');
+    background-repeat: no-repeat;
+    width: 144px; /* Ancho de cada sprite individual */
+    height: 128px; /* Altura de cada sprite individual */
+    position: absolute;
+    animation: mover-sprite 1s steps(3) infinite; /* Animación de movimiento */
+}
+
+
+@keyframes mover-sprite-arriba {
+    from{ background-position: 0 0px; } /* Inicial*/
+    to{ background-position: -432px 0px; } /* Final*/
+} 
+
+
+@keyframes mover-sprite-derecha {
+    from{ background-position: 0 -128px; } /* Inicial*/
+  to{ background-position: -432px -128px; } /* Final*/
+  }
+
+
+  @keyframes mover-sprite-abajo {
+    from{ background-position: 0 -256px; } /* Inicial*/
+  to{ background-position: -432px -256px; } /* Final*/
+  }
+
+@keyframes mover-sprite-izquierda {
+    from{ background-position: 0 -384px; } /* Inicial*/
+    to{ background-position: -432px -384px; } /* Final*/
+} 
+
